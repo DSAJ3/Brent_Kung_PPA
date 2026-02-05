@@ -1,2 +1,2 @@
-# Parallel_Prefix_Adders
-Brent Kung and Ladner Fischer Adders
+# Brent Kung Parallel_Prefix_Adder
+
