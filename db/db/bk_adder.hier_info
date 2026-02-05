@@ -1,0 +1,443 @@
+|bk_adder_16bit
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Cin => Sum.IN0
+Sum[0] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[1] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[2] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[3] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[4] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[5] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[6] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[7] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[8] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[9] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[10] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[11] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[12] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[13] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[14] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[15] << Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout << grey_cell:GC4_15.G_out
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[0].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[1].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[2].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[3].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[4].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[5].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[6].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[7].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[8].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[9].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[10].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[11].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[12].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[13].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[14].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|propagate_generate:loop_gen_block[15].PG
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_1
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_3
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_5
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_7
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_9
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_11
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_13
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC1_15
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC2_3
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC2_7
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC2_11
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC2_15
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC3_7
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC3_11
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC3_15
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC4_11
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC4_15
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC5_5
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC5_9
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|black_cell:BC5_13
+G_left => G_out.IN1
+P_left => G_out.IN0
+P_left => P_out.IN0
+G_right => G_out.IN1
+P_right => P_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+P_out <= P_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_2
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_4
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_6
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_8
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_10
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_12
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bk_adder_16bit|grey_cell:GC6_14
+G_left => G_out.IN1
+P_left => G_out.IN0
+G_right => G_out.IN1
+G_out <= G_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
